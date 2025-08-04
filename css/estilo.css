@@ -30,11 +30,11 @@ a{
     vertical-align: middle;
     text-decoration: none;
     font-weight: bold;
-    transition: 0.5s ease;
+    transition:  0.5s ease;
 }
 
 a:hover{
-    transition: ease;
+    transform: ease;
     color: #27AE60;
 }
 
@@ -77,7 +77,8 @@ button:hover{
 }
 
 .hero img{
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
     border: solid 2px #191D2B;
     border-radius: 500px;
     transition: 0.5s;
@@ -92,7 +93,6 @@ button:hover{
 .proyectos{
     margin: 0;
     background-color: #191D2B;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -131,11 +131,11 @@ hr{
     display: flex;
     flex-direction: column;
     min-height: 530px;
-    transition: 0.5s;
+    transition: 0.5s ease;
 }
 
 .tarjeta-proyecto:hover{
-    transform: scale(1.05);
+    transform: scale(1.02);
 }
 
 .tarjeta-proyecto p{
@@ -180,3 +180,4 @@ hr{
     gap: 10px;
     margin-top: auto;
 }
+
