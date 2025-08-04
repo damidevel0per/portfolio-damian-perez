@@ -5,6 +5,7 @@
     font-family: 'Montserrat', 'open sans';
 }
 
+/* Estilos header */
 header{
     background-color: #191D2B;
     color: #27AE60;
@@ -35,6 +36,7 @@ a:hover{
     color: #27AE60;
 }
 
+/* Estilos section hero */
 .hero{
     height: 95vh;
     display: flex;
@@ -81,6 +83,8 @@ button:hover{
     border: solid 3px #27AE60;
     transform: scale(1.05);
 }
+
+/* Estilos section proyectos personales */
 
 .proyectos{
     margin: 0;
