@@ -5,6 +5,10 @@
     font-family: 'Montserrat', 'open sans';
 }
 
+body{
+    background-color: #191D2B;
+}
+
 /* Estilos header */
 header{
     background-color: #191D2B;
@@ -79,14 +83,14 @@ button:hover{
 .hero img{
     width: 100%;
     max-width: 400px;
-    border: solid 2px #191D2B;
     border-radius: 500px;
-    transition: 0.5s;
+    transition: all 1.5s;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
 
 .hero img:hover{
-    transform: scale(1.05);
+    transform: scale(1.10) rotateZ(360deg) ;
+    box-shadow: 0 4px 15px rgba(39, 174, 96, 1)
 }
 
 /* Estilos section proyectos personales */
@@ -96,10 +100,12 @@ button:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
+    min-height: 100vh;
 }
 
 hr{
-    width: 160vh;
+    width: 90%;
+    max-width: 1000px;
     border-color: #27AE60;
     margin-bottom: 30px;
 }
@@ -122,7 +128,7 @@ hr{
     text-align: center;
     align-items: center;
     color: white;
-    background: linear-gradient(145deg, #27AE60, #191D2B);
+    background: linear-gradient(350deg,#191D2B, #27AE60 );
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
     width: 350px;
     padding: 15px;
@@ -131,7 +137,7 @@ hr{
     display: flex;
     flex-direction: column;
     min-height: 530px;
-    transition: 0.5s ease;
+    transition: transform 0.3s ease;
 }
 
 .tarjeta-proyecto:hover{
@@ -181,3 +187,63 @@ hr{
     margin-top: auto;
 }
 
+/*Estilos de section de skills*/
+
+.habilidades h2{
+
+    font-size: 50px;
+    padding-bottom: 15px;
+    text-align: center;
+    color: #27AE60;
+
+}
+
+.skills-flex {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las columnas bajen en pantallas pequeñas */
+    justify-content: center;
+    gap: 30px;
+    padding: 40px 20px;
+    background-color: #191D2B;
+    color: white;
+  }
+  
+  .skill-box {
+    background-color: #212121;
+    border-radius: 10px;
+    padding: 20px 25px;
+    min-width: 220px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease;
+  }
+  
+  .skill-box:hover {
+    transform: translateY(-5px);
+  }
+  
+  .skill-box h3 {
+    font-size: 1.2rem;
+    color: #27AE60;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .skill-box ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .skill-box li {
+    font-size: 0.95rem;
+    margin-bottom: 8px;
+    color: #ccc;
+  }
+
+  .skill-box li img{
+    max-width: 40px;
+  }
+
+  .skill-box li:hover{
+    color: #27AE60;
+  }
