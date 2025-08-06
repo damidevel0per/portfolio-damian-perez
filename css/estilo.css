@@ -7,12 +7,15 @@
 
 body{
     background-color: #191D2B;
+    overflow-x: hidden;
 }
 
 #inicio,
 #proyectos-personales,
 #habilidades,
-#sobremi {
+#sobremi,
+#contacto,
+#section-footer {
     padding-top: 10vh;
 }
 
@@ -171,9 +174,10 @@ hr{
 
 .proyectos-personales{
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
-    gap: 20px;
+    justify-content: center;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 .tarjeta-proyecto{
@@ -182,7 +186,9 @@ hr{
     color: #ccc;
     background: #212121 ;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-    width: 350px;
+    
+    max-width: 350px;
+    width: 100%;
     padding: 15px;
     border-radius: 10px;
     margin: 20px;
@@ -208,7 +214,8 @@ hr{
 }
 
 .tarjeta-proyecto img{
-    width: 350px;
+    width: 100%;
+    max-width: 100%;
     border-radius: 5px;
 }
 
@@ -544,3 +551,15 @@ li {
     height: auto;
 }
 }
+
+@media (max-width: 768px){
+    .nav-bar{
+        display: none;
+    }
+
+    header h1{
+        text-align: center;
+    }
+
+}
+
