@@ -5,8 +5,16 @@
     font-family: 'Montserrat', 'open sans';
 }
 
+
 body{
     background-color: #191D2B;
+}
+
+#inicio,
+#proyectos-personales,
+#habilidades,
+#sobremi {
+    padding-top: 10vh;
 }
 
 /* Estilos header */
@@ -18,6 +26,11 @@ header{
     justify-content: space-around;
     height: 8vh;
     padding-top: 5px;
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 span{
@@ -115,6 +128,7 @@ hr{
     padding-bottom: 15px;
     text-align: center;
     color: #27AE60;
+    margin-bottom: 15px;
 }
 
 .proyectos-personales{
@@ -127,7 +141,7 @@ hr{
 .tarjeta-proyecto{
     text-align: center;
     align-items: center;
-    color: white;
+    color: #ccc;
     background: #212121 ;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
     width: 350px;
@@ -189,14 +203,15 @@ hr{
 }
 
 /*Estilos de section de skills*/
+.habilidades{
+    min-height: 60vh;
+}
 
 .habilidades h2{
-
     font-size: 50px;
     padding-bottom: 15px;
     text-align: center;
     color: #27AE60;
-
 }
 
 .cajas {
@@ -207,44 +222,84 @@ hr{
     padding: 40px 20px;
     background-color: #191D2B;
     color: white;
-  }
+}
   
-  .habilidad-caja {
+.habilidad-caja {
     background-color: #212121;
     border-radius: 10px;
     padding: 20px 25px;
     min-width: 220px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
     transition: transform 0.3s ease;
-  }
+}
   
-  .habilidad-caja:hover {
+.habilidad-caja:hover {
     transform: translateY(-5px);
-  }
+}
   
-  .habilidad-caja h3 {
+.habilidad-caja h3 {
     font-size: 1.2rem;
     color: #27AE60;
     margin-bottom: 15px;
     text-align: center;
-  }
+}
   
-  .habilidad-caja ul {
+.habilidad-caja ul {
     list-style: none;
     padding: 0;
     margin: 0;
-  }
+}
   
-  .habilidad-caja li {
+.habilidad-caja li {
     font-size: 0.95rem;
     margin-bottom: 8px;
     color: #ccc;
-  }
+}
 
-  .habilidad-caja li img{
+.habilidad-caja li img{
     max-width: 40px;
-  }
+}
 
-  .habilidad-caja li:hover{
+.habilidad-caja li:hover{
     color: #27AE60;
-  }
+}
+
+/*Estilos de la section Sobre mi*/
+
+.sobre-mi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    min-height: 50vh;
+    text-align: center;
+}
+
+.sobre-mi strong{
+    color: #27AE60;
+}
+
+.sobre-mi h2{
+    font-size: 50px;
+    padding-bottom: 15px;
+    color: #27AE60;
+}
+
+.sobre-mi p{
+    font-size: large;
+    text-align: center;
+    line-height: 1.8;
+    margin: 10px;
+}
+
+.sobre-mi .gif{
+    padding: 20px ;
+    background-color: #212121;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+.sobre-mi img{
+    margin: 10px;
+    border-radius: 10px;
+}
