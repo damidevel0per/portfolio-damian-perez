@@ -309,7 +309,7 @@ hr{
     flex-direction: column;
     align-items: center;
     color: white;
-    min-height: 90vh;
+    min-height: 100vh;
     text-align: center;
 }
 
@@ -408,4 +408,32 @@ hr{
     flex-direction: column;
     align-items: center;
     padding-top: 25px;
+}
+
+/*Estilos del footer*/
+
+.section-footer{
+    padding-top: 20px;
+    border-top: solid 1px #27AE60;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    min-height: 10vh;
+}
+
+.section-footer img{
+    width: 20px;
+    padding-left: 15px;
+}
+
+.redes-sociales{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    vertical-align: middle;
+}
+
+.info-footer{
+    text-align: end;
 }
