@@ -437,3 +437,110 @@ hr{
 .info-footer{
     text-align: end;
 }
+
+
+/*MEDIA QUERIES PARA RESPONSIVE*/
+
+@media (max-width: 768px) {
+
+header {
+    flex-direction: column;
+    height: auto;
+    padding: 10px 0;
+    text-align: center;
+}
+
+li {
+    display: block;
+    padding: 10px 0;
+}
+
+.hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    height: auto;
+}
+
+.hero img {
+    max-width: 250px;
+    margin-top: 20px;
+}
+
+.info-hero h1 {
+    font-size: 35px;
+}
+
+.proyectos-personales {
+    flex-direction: column;
+    align-items: center;
+}
+
+.tarjeta-proyecto {
+    width: 90%;
+}
+
+.cajas {
+    flex-direction: column;
+    align-items: center;
+}
+
+.habilidad-caja {
+    width: 90%;
+}
+
+.sobre-mi {
+    padding: 20px;
+}
+
+.sobre-mi h2 {
+    font-size: 35px;
+}
+
+.contacto {
+    padding: 20px;
+}
+
+.formulario-contacto {
+    width: 90%;
+}
+
+.section-footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+}
+
+.info-footer {
+    text-align: center;
+}
+
+}
+
+@media (max-width: 768px) {
+.sobre-mi {
+    padding: 20px;
+    min-height: auto;
+    text-align: center;
+}
+  
+.sobre-mi h2 {
+    font-size: 35px;
+}
+  
+.sobre-mi p {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+  
+.sobre-mi .gif {
+    width: 90%;
+}
+  
+.sobre-mi img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+}
