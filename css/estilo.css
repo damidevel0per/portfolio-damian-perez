@@ -128,7 +128,7 @@ hr{
     text-align: center;
     align-items: center;
     color: white;
-    background: linear-gradient(350deg,#191D2B, #27AE60 );
+    background: #212121 ;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
     width: 350px;
     padding: 15px;
@@ -148,10 +148,11 @@ hr{
     padding-top: 3px;
     text-align: center;
 }
+
 .tarjeta-proyecto h3{
     margin-top: 25px;
     margin-bottom: 15px;
-    color: white;
+    color: #27AE60;
 }
 
 .tarjeta-proyecto img{
@@ -161,9 +162,9 @@ hr{
 
 .tarjeta-proyecto button{
     background-color: transparent;
-    border: solid 2px white;
+    border: solid 2px #27AE60;
     border-radius: 10px;
-    color: white;
+    color: #27AE60;
     font-weight: bold;
     height: 35px;
     width: 120px;
@@ -176,8 +177,8 @@ hr{
 
 .tarjeta-proyecto button:hover{
     transform: scale(1.01);
-    background-color: white;
-    color:  #27AE60;
+    background-color: #27AE60;
+    color: white;
 }
 
 .botones{
@@ -198,9 +199,9 @@ hr{
 
 }
 
-.skills-flex {
+.cajas {
     display: flex;
-    flex-wrap: wrap; /* Permite que las columnas bajen en pantallas pequeñas */
+    flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
     padding: 40px 20px;
@@ -208,7 +209,7 @@ hr{
     color: white;
   }
   
-  .skill-box {
+  .habilidad-caja {
     background-color: #212121;
     border-radius: 10px;
     padding: 20px 25px;
@@ -217,33 +218,33 @@ hr{
     transition: transform 0.3s ease;
   }
   
-  .skill-box:hover {
+  .habilidad-caja:hover {
     transform: translateY(-5px);
   }
   
-  .skill-box h3 {
+  .habilidad-caja h3 {
     font-size: 1.2rem;
     color: #27AE60;
     margin-bottom: 15px;
     text-align: center;
   }
   
-  .skill-box ul {
+  .habilidad-caja ul {
     list-style: none;
     padding: 0;
     margin: 0;
   }
   
-  .skill-box li {
+  .habilidad-caja li {
     font-size: 0.95rem;
     margin-bottom: 8px;
     color: #ccc;
   }
 
-  .skill-box li img{
+  .habilidad-caja li img{
     max-width: 40px;
   }
 
-  .skill-box li:hover{
+  .habilidad-caja li:hover{
     color: #27AE60;
   }
