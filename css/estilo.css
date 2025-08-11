@@ -69,6 +69,10 @@ a:hover{
     background-color: #27AE60;
 }
 
+.botonTema{
+    display: none;
+}
+
 /* Estilos section hero */
 .hero{
     height: 95vh;
@@ -457,21 +461,34 @@ hr{
     text-align: end;
 }
 
-
 /*MEDIA QUERIES PARA RESPONSIVE*/
 
 @media (max-width: 768px) {
 
-header {
-    flex-direction: column;
-    height: auto;
-    padding: 10px 0;
+.contenedorResponsive{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+}
+
+.botonTema{
+    display: block;
+}
+
+header{
+    height: 65px;
+}
+
+header h1{
+    padding-left: 20px;
     text-align: center;
 }
 
-li {
-    display: block;
-    padding: 10px 0;
+.nav-bar{
+    display: none;
 }
 
 .hero {
@@ -491,16 +508,13 @@ li {
 }
 
 .proyectos-personales {
-    flex-direction: column;
+
+    flex-direction: row;
     align-items: center;
 }
 
-.tarjeta-proyecto {
-    width: 90%;
-}
-
 .cajas {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
 }
 
@@ -516,28 +530,6 @@ li {
     font-size: 35px;
 }
 
-.contacto {
-    padding: 20px;
-}
-
-.formulario-contacto {
-    width: 90%;
-}
-
-.section-footer {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 15px;
-}
-
-.info-footer {
-    text-align: center;
-}
-
-}
-
-@media (max-width: 768px) {
 .sobre-mi {
     padding: 20px;
     min-height: auto;
@@ -562,16 +554,24 @@ li {
     max-width: 300px;
     height: auto;
 }
+
+.contacto {
+    padding: 20px;
 }
 
-@media (max-width: 768px){
-    .nav-bar{
-        display: none;
-    }
-
-    header h1{
-        text-align: center;
-    }
-
+.formulario-contacto {
+    width: 90%;
 }
 
+.section-footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+}
+
+.info-footer {
+    text-align: center;
+}
+
+}
