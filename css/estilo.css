@@ -5,9 +5,11 @@
     font-family: 'Montserrat', 'open sans';
 }
 
+
 body{
     background-color: #191D2B;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 #inicio,
@@ -55,6 +57,16 @@ a{
 a:hover{
     transform: ease;
     color: #27AE60;
+}
+
+#colorPagina{
+    background-color: white;
+    border: transparent;
+    border-radius: 150px;
+    width: 36px;
+}
+#colorPagina:hover{
+    background-color: #27AE60;
 }
 
 /* Estilos section hero */

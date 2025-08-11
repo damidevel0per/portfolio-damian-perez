@@ -19,6 +19,7 @@
                 <li><a href="#habilidades">Habilidades</a></li>
                 <li><a href="#sobremi">Sobre mi</a></li>
                 <li><a href="#contacto">Contacto</a></li>
+                <li><button id="colorPagina">🌞</button></li>
             </ul>
         </nav>
     </header>
@@ -26,8 +27,8 @@
     <main>
         <section id="inicio" class="hero">
             <div class="info-hero">
-                <h1> ¡Hola! 🤙<br>Soy Damian Perez</h1>
-                <p  id="presentacionHero" ></p>
+                <h1 class="tema"> ¡Hola! 🤙<br>Soy Damian Perez</h1>
+                <p class="tema" id="presentacionHero" ></p>
                 <a target="_blank" href="https://www.linkedin.com/in/damian-perez-0b23a1233/"><button>LinkedIn</button></a>
                 <a target="_blank" href="doc/cv2025.pdf" download="CV-DamianPerez"><button>Descargar CV</button></a>
             </div>
@@ -38,7 +39,7 @@
 
         <!--SECTION DE PROYECTOS PERSONALES-->
         <section id="proyectos-personales" class="proyectos">
-            <h2><span>Proyectos</span>.</h2>
+            <h2><span class="tema">Proyectos</span>.</h2>
             <div class="proyectos-personales">
                 <div class="tarjeta-proyecto">
                         <img src="imagenes/clinica.jpg" alt="">
@@ -89,7 +90,7 @@
 
         <!--SECTION DE HABILIDADES-->
         <section id="habilidades" class="habilidades">
-            <h2><span>Habilidades</span>.</h2>
+            <h2><span class="tema">Habilidades</span>.</h2>
             <div class="cajas">
                 <div class="habilidad-caja">
                   <h3>Frontend</h3>
@@ -137,15 +138,15 @@
         <!--SECTION SOBRE MI-->
         <section id="sobremi" class="sobre-mi">
             <div>
-              <h2><span>Sobre mi</span>.</h2>
-              <p>¡Hola! Soy <strong>Damian Perez</strong>, un desarrollador en formación que vive en Entre Ríos, Argentina 🇦🇷</p>
-              <p>Estoy estudiando la <strong>Tecnicatura Universitaria en Programación en UTN</strong> 💻</p>
+              <h2><span class="tema">Sobre mi</span>.</h2>
+              <p class="tema">¡Hola! Soy <strong>Damian Perez</strong>, un desarrollador en formación que vive en Entre Ríos, Argentina 🇦🇷</p>
+              <p class="tema">Estoy estudiando la <strong>Tecnicatura Universitaria en Programación en UTN</strong> 💻</p>
               <div class="gif">
                 <p>✨Me gusta la manera en que la tecnología puede hacernos la vida más <strong>fácil</strong> y a veces hasta más <strong>divertida</strong>.✨</p>          
                 <img src="imagenes/gif/coding.gif" alt="">
               </div>
-              <p>Disfruto resolver problemas con código y siempre estoy buscando aprender algo nuevo, ya sea del lado del <strong>Backend</strong> o del <strong>Frontend</strong>.</p>
-              <p>Me gusta estar al tanto de las <strong>buenas prácticas</strong> y probar herramientas nuevas, todo mientras sigo creciendo como <strong>profesional</strong>.</p>
+              <p class="tema">Disfruto resolver problemas con código y siempre estoy buscando aprender algo nuevo, ya sea del lado del <strong>Backend</strong> o del <strong>Frontend</strong>.</p>
+              <p class="tema">Me gusta estar al tanto de las <strong>buenas prácticas</strong> y probar herramientas nuevas, todo mientras sigo creciendo como <strong>profesional</strong>.</p>
            
 
             </div>
@@ -153,16 +154,16 @@
 
         <!--SECTION DE FORMULARIO DE CONTACTO-->
         <section id="contacto" class="contacto">
-            <h2><span>Contactate conmigo</span>!</h2>
+            <h2><span class="tema">Contactáte conmigo</span>!</h2>
             <div class="formulario-contacto">
                 <form action="">
-                    <h3>Completa el formulario</h3>
+                    <h3>Completá el formulario</h3>
                     <label for="">Nombre</label>
-                    <input type="text" placeholder="ej: Juan Perez">
+                    <input type="text" placeholder="ej: Juan Perez" required>
                     <label for="">Correo electrónico</label>
-                    <input type="email" placeholder="ejemplo@email.com">
+                    <input type="email" placeholder="ejemplo@email.com" required>
                     <label for="">Mensaje</label>
-                    <input type="text" class="mensaje">
+                    <input type="text" class="mensaje" required>
                     <div class="boton-form-contacto">
                         <button id="btnEnviar">Enviar</button>
                     </div>
