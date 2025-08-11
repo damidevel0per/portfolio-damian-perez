@@ -1,6 +1,7 @@
 //------CAMBIAR DE TEMA LA PAGINA-------
 
 let colorPagina = document.getElementById('colorPagina')
+let colorPaginaMobile = document.getElementById('colorPaginaMobile')
 let body = document.body;
 let inicio = document.getElementsByClassName('hero')[0]
 let letrasHero = document.getElementsByClassName('info-hero')
@@ -14,7 +15,7 @@ let sobreMi2 = document.getElementsByClassName('cajas')[0]
 let contacto = document.getElementsByClassName('contacto')[0]
 let footer = document.getElementsByClassName('section-footer')[0]
 
-
+colorPaginaMobile.addEventListener('click', cambiarTema)
 colorPagina.addEventListener('click', cambiarTema)
 
 function cambiarTema(){

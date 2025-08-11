@@ -70,6 +70,10 @@ a:hover{
 }
 
 .botonTema{
+    background-color: white;
+    border: transparent;
+    border-radius: 150px;
+    width: 36px;
     display: none;
 }
 
