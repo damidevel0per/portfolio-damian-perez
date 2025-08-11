@@ -12,7 +12,7 @@ Portfolio personal desarrollado para mostrar mis proyectos, habilidades y experi
 - Secciones organizadas:
   - Inicio con presentación
   - Proyectos destacados
-  - Habilidades técnicas
+  - Habilidades técnicas y blandas
   - Sobre mí
   - Formulario de contacto
 
