@@ -67,6 +67,7 @@ a:hover{
 }
 #colorPagina:hover{
     background-color: #27AE60;
+    cursor: pointer;
 }
 
 .botonTema{
