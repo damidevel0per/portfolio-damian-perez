@@ -1,5 +1,7 @@
-# Portfolio - Damian Perez
-<img width="1897" height="901" alt="image" src="https://github.com/user-attachments/assets/e553e474-5fac-407c-ba29-d589e209b8e2" />
+# Portfolio Web Personal - Damian Perez
+
+https://github.com/user-attachments/assets/2974b877-43ae-4652-aba9-12e3046d0689
+
 Portfolio personal desarrollado para mostrar mis proyectos, habilidades y experiencia como desarrollador.
 
 ## 🚀 Características
