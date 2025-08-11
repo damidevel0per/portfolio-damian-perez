@@ -14,7 +14,7 @@ Portfolio personal desarrollado para mostrar mis proyectos, habilidades y experi
   - Proyectos destacados
   - Habilidades técnicas y blandas
   - Sobre mí
-  - Formulario de contacto
+  - Formulario de contacto(sin funcionalidad)
 
 ## 🛠 Tecnologías utilizadas
 
